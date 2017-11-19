@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-8.0.0_r30" />
+           revision="refs/tags/android-8.0.0_r32" />
   
   <remote  name="jb"
            fetch=".."
@@ -542,7 +542,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/crdroid.xml" />
+  <include name="snippets/droid.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
