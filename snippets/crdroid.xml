@@ -56,7 +56,6 @@
   <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
 
-  <project path="vendor/addons" name="joryb/android_vendor_addons" remote="jb" />
   <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="joryb/android_vendor_lineage" remote="jb" />
 
