@@ -1,0 +1,14 @@
+# CleanAOSP 
+  ## Android Oreo 8.1.x for Nexus 6 [shamu] 
+----
+Creating the build directory, initializing CleanAOSP manifest, downloading source and building :
+
+      user@linux ~/ $ mkdir caosp && cd caosp                      
+      user@linux ~/caosp $ repo init -u https://github.com/CleanAosp-O/android_manifest.git -b 8.1x
+      user@linux ~/caosp $ repo sync -f --force-sync --no-tags --no-clone-bundle
+      user@linux ~/caosp $ . build/envsetup.sh
+      user@linux ~/caosp $ lunch (choose option 3)
+      user@linux ~/caosp $ make bacon
+
+----
+Gapps at: https://basketbuild.com/filedl/devs?dev=joryb&dl=joryb/open_gapps-cleanaosp-arm-8.1-nano-20180120.zip
