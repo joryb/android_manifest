@@ -26,8 +26,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Bionic
-  <project path="bionic" name="platform_bionic" remote="clean" > -->
+  <!-- Bionic -->
+  <project path="bionic" name="platform_bionic" remote="clean" />
 
   <!-- Device -->
   <project path="device/moto/shamu" name="device_shamu" remote="clean" />
