@@ -33,6 +33,7 @@
   <project path="device/moto/shamu" name="device_shamu" remote="clean" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="clean" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="clean" />
 
   <!-- Hardware -->
