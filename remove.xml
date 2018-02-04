@@ -8,6 +8,9 @@
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
 
+  <!-- Bootable recovery -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- Device repos -->
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />

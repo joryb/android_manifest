@@ -29,6 +29,9 @@
   <!-- Bionic -->
   <project path="bionic" name="platform_bionic" remote="clean" />
 
+  <!-- Bootable recovery -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="clean" />
+
   <!-- Device -->
   <project path="device/moto/shamu" name="device_shamu" remote="clean" />
 
