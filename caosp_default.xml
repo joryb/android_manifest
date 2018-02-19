@@ -59,7 +59,7 @@
   <project path="system/nfc" name="android_platform_system_nfc" remote="clean" />
 
   <!-- Vendor -->
-  <project path="vendor/caosp" name="platform_vendor_caosp" remote="clean" />
+  <project path="vendor/caosp" name="joryb/android_vendor_caosp" remote="gb" revision="8.1x" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="clean" />
 
 </manifest>
