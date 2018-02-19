@@ -45,7 +45,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="clean" />
 
   <!-- Kernel -->
-  <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="clean" />
+  <project path="kernel/moto/shamu" name="joryb/kernel_moto_shamu" remote="gb revision="8.1x" />
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="joryb/platform_packages_apps_Launcher3" remote="gb" revision="8.1" />
