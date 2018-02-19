@@ -4,7 +4,7 @@
 Creating the build directory, initializing CleanAOSP manifest, downloading source and building :
 
       user@linux ~/ $ mkdir caosp && cd caosp                      
-      user@linux ~/caosp $ repo init -u https://github.com/CleanAosp-O/android_manifest.git -b 8.1x
+      user@linux ~/caosp $ repo init -u https://github.com/joryb/android_manifest.git -b 8.1x
       user@linux ~/caosp $ repo sync -f --force-sync --no-tags --no-clone-bundle
       user@linux ~/caosp $ . build/envsetup.sh
       user@linux ~/caosp $ lunch (choose option 3)
