@@ -37,7 +37,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="clean" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="clean" />
+  <project path="frameworks/base" name="joryb/platform_frameworks_base" remote="gb" revision="8.1x" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="clean" />
