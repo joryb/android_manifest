@@ -49,6 +49,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="joryb/platform_packages_apps_Launcher3" remote="gb" revision="8.1" />
+    <project path="packages/apps/Settings" name="aosp-mirror/platform_packages_apps_settings" remote="gb" revision="oreo-mr1-release" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="joryb/arm-eabi-7.x" clone-depth="1" remote="bb" revision="master"/>
