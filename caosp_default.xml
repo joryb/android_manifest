@@ -49,7 +49,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="joryb/platform_packages_apps_Launcher3" remote="gb" revision="8.1" />
-    <project path="packages/apps/Settings" name="aosp-mirror/platform_packages_apps_settings" remote="gb" revision="oreo-mr1-release" />
+  <project path="packages/apps/Settings" name="aosp-mirror/platform_packages_apps_settings" remote="gb" revision="master" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="joryb/arm-eabi-7.x" clone-depth="1" remote="bb" revision="master"/>
@@ -62,4 +62,9 @@
   <project path="vendor/caosp" name="joryb/android_vendor_caosp" remote="gb" revision="8.1x" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="clean" />
 
+<!-- Project Treble -->
+<include name="treble/replace.xml"/>
+<include name="treble/manifest.xml"/>
+<include name="treble/opengapps.xml"/>
+<include name="treble/foss.xml"/>
 </manifest>
