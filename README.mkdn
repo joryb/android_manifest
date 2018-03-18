@@ -1,6 +1,6 @@
 # CleanAOSP 
   ## Android Oreo 8.1.x for Nexus 6 [shamu] 
-----WIP THIS WILL NOT BUILD YET
+    ## ----WIP THIS WILL NOT BUILD YET!
 Creating the build directory, initializing CleanAOSP manifest, downloading source and building :
 
       user@linux ~/ $ mkdir caosp && cd caosp                      
@@ -10,4 +10,4 @@ Creating the build directory, initializing CleanAOSP manifest, downloading sourc
       user@linux ~/caosp $ lunch (choose option 3)
       user@linux ~/caosp $ make bacon
 
-----shamu uses part A partition only
+## Treble build info for shamu will be posted at https://aosp.ro.lt/treble
