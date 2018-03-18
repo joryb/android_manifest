@@ -3,11 +3,12 @@
     ## ----WIP THIS WILL NOT BUILD YET!
 Creating the build directory, initializing CleanAOSP manifest, downloading source and building :
 
-      user@linux ~/ $ mkdir caosp && cd caosp                      
-      user@linux ~/caosp $ repo init -u https://github.com/joryb/android_manifest.git -b testing_treble
-      user@linux ~/caosp $ repo sync -f --force-sync --no-tags --no-clone-bundle
-      user@linux ~/caosp $ . build/envsetup.sh
-      user@linux ~/caosp $ lunch (choose option 3)
-      user@linux ~/caosp $ make bacon
-
-## Treble build info for shamu will be posted at https://aosp.ro.lt/treble
+      user@linux ~/ $ mkdir testing_treble && cd testing_treble                      
+      user@linux ~/testing_treble $ repo init -u https://github.com/joryb/android_manifest.git -b testing_treble
+      user@linux ~/testing_treble $ repo sync -f -c --force-sync --no-tags --no-clone-bundle
+      user@linux ~/testing_treble $ . build/envsetup.sh
+      user@linux ~/testing_treble $ lunch
+      user@linux ~/testing_treble $ make droid
+      user@linux ~/testing_treble $ make otapackage
+      
+### Treble build info for shamu will be posted at https://aosp.ro.lt/treble
