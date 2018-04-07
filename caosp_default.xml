@@ -36,7 +36,6 @@
   <project path="device/moto/shamu" name="joryb/android_device_moto_shamu" remote="gb" revision="8.1x" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="clean" />
   <project path="frameworks/base" name="joryb/platform_frameworks_base" remote="gb" revision="8.1x" />
 
   <!-- Hardware -->
@@ -49,7 +48,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="joryb/platform_packages_apps_Launcher3" remote="gb" revision="8.1" />
-    <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="clean" revision="master" />
+  <project path="packages/apps/Settings" name="joryb/platform_packages_apps_settings" remote="gb" revision="master" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="joryb/arm-eabi-7.x" clone-depth="1" remote="bb" revision="master"/>
