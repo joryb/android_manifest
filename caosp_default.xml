@@ -35,6 +35,9 @@
   <!-- Device -->
   <project path="device/moto/shamu" name="joryb/android_device_moto_shamu" remote="gb" revision="8.1x" />
 
+  <!-- External  -->
+  <project path="external/chromium-webview" name="joryb/android_external_chromium-webview" remote="gb" revision="8.1x" />
+
   <!-- Frameworks -->
   <project path="frameworks/base" name="joryb/platform_frameworks_base" remote="gb" revision="8.1x" />
 

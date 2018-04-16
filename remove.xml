@@ -57,6 +57,8 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/chromium-webview" />
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/base" />
 
